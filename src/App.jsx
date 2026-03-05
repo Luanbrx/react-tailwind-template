@@ -243,13 +243,58 @@ function App() {
         </div>
       </section>
 
-      <main className="pt-20 text-center">
-        <h1 className="text-4xl md:text-6xl font-bold px-4">
-          Acelere sua presença <span className="text-fuchsia-500">online</span>
-        </h1>
-      </main>
+   {/* Preço */}
+      <section id="pricing" className="mx-auto max-w-6xl px-4 py-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+          <div>
+            <h2 className="text-3xl font-bold">Plano único, Sem Complicação</h2>
+            <p className="text-slate-300 mt-6 max-w-2xl">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+              eius saepe a ex aliquam veniam hic porro?
+            </p>
+            <ul className="mt-4 space-y-2 text-sm text-slate-300">
+              <li className="flex items-center gap-2">
+                <Check className="size-4 text-emerald-400" /> Benefício 1
+              </li>
+              <li className="flex items-center gap-2">
+                <Check className="size-4 text-emerald-400" /> Benefício 2
+              </li>
+              <li className="flex items-center gap-2">
+                <Check className="size-4 text-emerald-400" /> Benefício 3
+              </li>
+            </ul>
+          </div>
+          <div className="rounded-3xl border border-white/10 bg-white/[0.02] p-8">
+            <div className="text-sm text-slate-400">A partir de</div>
+            <div className="text-5xl font-extrabold mt-2">R$ 199,90</div>
+            <div className="text-sm text-slate-300 mt-4 flex items-center gap-2">
+              <Clock1 className="size-4 text-amber-400" />
+              <p>Somente hoje!</p>
+            </div>
+            <button
+              href="#"
+              className="
+              mt-6 cursor-pointer 
+              rounded-2xl bg-fuchsia-600 hover:bg-fuchsia-800 
+              px-6 py-3 font-medium"
+            >
+              Comprar agora!
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="border-t border-white/5">
+        <div className="mx-auto max-w-6xl px-4 py-8 flex flex-col items-center">
+          <div className="mb-4">Minha Marca @ {new Date().getFullYear()}</div>
+          <a href="#" className="text-slate-300">
+            Política de Privacidade
+          </a>
+        </div>
+      </footer>
     </div>
-  )
-}
+  );
+} 
 
 export default App
