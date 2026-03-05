@@ -1,16 +1,25 @@
-# React + Vite
+# 🚀 React + Tailwind Template: Laboratório de Estudos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório foi criado com o objetivo principal de praticar os fundamentos do desenvolvimento **Frontend moderno**. O foco aqui não foi a criação de um portfólio definitivo, mas sim o domínio técnico de ferramentas essenciais para um desenvolvedor Fullstack.
 
-Currently, two official plugins are available:
+## 🔗 Link do Projeto
+Acesse o resultado final aqui: [https://react-tailwind-template-lime.vercel.app/](https://react-tailwind-template-lime.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Objetivos de Estudo
+Durante o desenvolvimento desta página, foquei em aprender:
+- **Estruturação com Vite:** Configuração inicial rápida e eficiente.
+- **Tailwind CSS v4:** Estilização baseada em utilitários para criar layouts responsivos e modernos.
+- **Componentização:** Divisão da interface em partes reutilizáveis para facilitar a manutenção.
+- **Animações:** Implementação de efeitos de entrada e transições suaves usando **Framer Motion**.
+- **Gestão de Estado:** Controle de visibilidade de menus (Navbar Mobile) utilizando `useState`.
+- **Deploy Automatizado:** Configuração de CI/CD via **Vercel** para atualizações automáticas a cada push.
 
-## React Compiler
+## 🛠️ Tecnologias Utilizadas
+- **React** (v18+)
+- **Tailwind CSS** (v4)
+- **Framer Motion** (Animações)
+- **Lucide React** (Ícones)
+- **Vite** (Build Tool)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+> *Nota: Os projetos e descrições listados na página foram inseridos para fins de preenchimento de layout e testes de estrutura, refletindo minhas áreas de interesse como desenvolvedor Java e Node.js.*
